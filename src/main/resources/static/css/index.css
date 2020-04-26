@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/bg.jpg) no-repeat top center;
+    line-height: 1.15;
+}
+header {
+    height: 1.785714rem;
+    background: url(../img/head_bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+header h1 {
+    font-size: 38px;
+    color: #fff;
+    text-align: center;
+    line-height: 56px;
+}
+header .showTime {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    line-height: 50px;
+    font-size:20px;
+    color: rgb(255, 255, 255);
+}
+
